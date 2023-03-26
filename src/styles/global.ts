@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { theme } from "./theme";
 
 const GlobalStyles = createGlobalStyle`
 
@@ -10,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
 }
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: ${theme.colors.background};
 
 }
 a {
