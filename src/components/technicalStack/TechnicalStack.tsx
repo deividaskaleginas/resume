@@ -17,8 +17,8 @@ export const TechnicalStack: React.FC = () => {
       </Typography>
       <FlexWrapper flexDirection="column" gap="1rem">
         <FlexWrapper gap="1rem">
-          {PROGRAMING_LANGUAGES.map(({ logo, text }) => (
-            <ProgramingLanguageStyledBlock>
+          {PROGRAMING_LANGUAGES.map(({ logo, text }, index) => (
+            <ProgramingLanguageStyledBlock key={index}>
               <img src={logo} alt="HTML icon" />{" "}
               <Typography type="buttonTextBold" color="white">
                 {text}
@@ -27,8 +27,8 @@ export const TechnicalStack: React.FC = () => {
           ))}
         </FlexWrapper>
         <FlexWrapper gap="1rem">
-          {PACKAGES.map(({ logo, text }) => (
-            <PackageStyledBlock>
+          {PACKAGES.map(({ logo, text }, index) => (
+            <PackageStyledBlock key={index}>
               <img src={logo} alt="HTML icon" />{" "}
               <Typography type="buttonTextBold" color="white">
                 {text}
