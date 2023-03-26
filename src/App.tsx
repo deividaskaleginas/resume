@@ -4,6 +4,7 @@ import { AboutMe } from "./components/aboutMe/AboutMe";
 import { Contacts } from "./components/contacts/Contacts";
 import { Education } from "./components/education/Education";
 import { Header } from "./components/header/Header";
+import { TechnicalStack } from "./components/technicalStack/TechnicalStack";
 import GlobalStyles from "./styles/global";
 
 const App: React.FC = () => {
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Contacts />
       <AboutMe />
       <Education />
+      <TechnicalStack />
     </Main>
   );
 };

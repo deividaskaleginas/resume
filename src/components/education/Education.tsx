@@ -86,6 +86,7 @@ const EducationStyledSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 0.7188rem;
+  padding-bottom: 1.3125rem;
 
   img {
     height: 2.5rem;
