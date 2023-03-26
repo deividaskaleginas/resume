@@ -66,7 +66,7 @@ export const Education: React.FC = () => {
             </FlexWrapper>
             <FlexWrapper flexDirection="column">
               <Typography type="experientsTitleTextBold" color="grey1">
-                COMPUTER PROGRAMMING
+                LAW
               </Typography>
               <Typography type="experientsHeaderTextBold" color="grey1">
                 Mykolas Romeris University Sep 2011 - Jan 2015
