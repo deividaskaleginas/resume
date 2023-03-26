@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Contacts } from "./components/contacts/Contacts";
 import { Header } from "./components/header/Header";
 import GlobalStyles from "./styles/global";
 
@@ -8,6 +9,7 @@ const App: React.FC = () => {
     <Main>
       <GlobalStyles />
       <Header />
+      <Contacts />
     </Main>
   );
 };
