@@ -6,14 +6,13 @@ import { FlexWrapper } from "../wrappers/FlexWrapper";
 import { theme } from "../../styles/theme";
 
 import profilePhoto from "../../assets/images/profilePhoto.jpg";
+import { Box } from "../wrappers/WrapperTypes";
 
 export const Header: React.FC = () => {
   return (
     <HeaderStyled>
-      <FlexWrapper>
-        <img src={profilePhoto} alt="Deividas Kaleginas profile" />
-      </FlexWrapper>
-      <FlexWrapper flexDirection="column">
+      <Avatar src={profilePhoto} alt="Deividas Kaleginas profile" />
+      <Box>
         <Typography type="nameSurnameTextBold" color="white">
           Deividas Kaleginas
         </Typography>
@@ -23,7 +22,8 @@ export const Header: React.FC = () => {
         <Typography type="headerLocationTextBold" color="white">
           Vilnius - Lithuania
         </Typography>
-      </FlexWrapper>
+      </Box>
+      Download as PDF
     </HeaderStyled>
   );
 };
@@ -34,11 +34,11 @@ const HeaderStyled = styled.header`
   gap: 0.9375rem;
   padding-bottom: 1.125rem;
   border-bottom: 1px solid ${theme.colors.border};
+`;
 
-  img {
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+const Avatar = styled.img`
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
 `;

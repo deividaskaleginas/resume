@@ -16,9 +16,7 @@ export const Education: React.FC = () => {
       <FlexWrapper flexDirection="column" gap="0.75rem">
         <FlexWrapper flexDirection="column" gap="0.5rem">
           <FlexWrapper gap="0.5rem">
-            <FlexWrapper>
-              <img src={codeAcademy} alt="Coding school Codeacademy logo" />
-            </FlexWrapper>
+            <img src={codeAcademy} alt="Coding school Codeacademy logo" />
             <FlexWrapper flexDirection="column">
               <Typography type="experientsTitleTextBold" color="grey1">
                 FRONT-END DEVELOPMENT
@@ -43,9 +41,7 @@ export const Education: React.FC = () => {
             </FlexWrapper>
           </FlexWrapper>
           <FlexWrapper gap="0.5rem">
-            <FlexWrapper>
-              <img src={vilniusCodingSchool} alt="Vilnius Coding school logo" />
-            </FlexWrapper>
+            <img src={vilniusCodingSchool} alt="Vilnius Coding school logo" />
             <FlexWrapper flexDirection="column">
               <Typography type="experientsTitleTextBold" color="grey1">
                 COMPUTER PROGRAMMING
@@ -61,9 +57,7 @@ export const Education: React.FC = () => {
             </FlexWrapper>
           </FlexWrapper>
           <FlexWrapper gap="0.5rem">
-            <FlexWrapper>
-              <img src={mruLogo} alt="Mykolas Romeris University logo" />
-            </FlexWrapper>
+            <img src={mruLogo} alt="Mykolas Romeris University logo" />
             <FlexWrapper flexDirection="column">
               <Typography type="experientsTitleTextBold" color="grey1">
                 LAW

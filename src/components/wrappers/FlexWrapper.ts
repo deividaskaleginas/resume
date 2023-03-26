@@ -8,6 +8,7 @@ interface FlexWrapperProps extends DefaultWrapperProps {
   gap?: string;
   alignItems?: Property.AlignItems;
   justifyContent?: Property.JustifyContent;
+  flexWrap?: Property.FlexWrap;
 }
 
 export const FlexWrapper = styled(Box)<FlexWrapperProps>`
@@ -16,4 +17,5 @@ export const FlexWrapper = styled(Box)<FlexWrapperProps>`
   gap: ${({ gap }) => gap || "0rem"};
   align-items: ${({ alignItems }) => alignItems || "stretch"};
   justify-content: ${({ justifyContent }) => justifyContent || "flex-start"};
+  flex-wrap: ${({ flexWrap }) => flexWrap};
 `;

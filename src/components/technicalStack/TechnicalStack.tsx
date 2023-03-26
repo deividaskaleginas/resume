@@ -16,7 +16,7 @@ export const TechnicalStack: React.FC = () => {
         Technical Stack
       </Typography>
       <FlexWrapper flexDirection="column" gap="1rem">
-        <FlexWrapper gap="1rem">
+        <FlexWrapper flexWrap="wrap" gap="1rem">
           {PROGRAMING_LANGUAGES.map(({ logo, text }, index) => (
             <ProgramingLanguageStyledBlock key={index}>
               <img src={logo} alt="HTML icon" />{" "}
@@ -26,7 +26,7 @@ export const TechnicalStack: React.FC = () => {
             </ProgramingLanguageStyledBlock>
           ))}
         </FlexWrapper>
-        <FlexWrapper gap="1rem">
+        <FlexWrapper flexWrap="wrap" gap="1rem">
           {PACKAGES.map(({ logo, text }, index) => (
             <PackageStyledBlock key={index}>
               <img src={logo} alt="HTML icon" />{" "}
@@ -42,9 +42,8 @@ export const TechnicalStack: React.FC = () => {
 };
 
 const TechnicalStackStyledSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  gap: 0.5625rem;
+  display: grid;
+  grid-gap: 0.5625rem;
 `;
 
 const ProgramingLanguageStyledBlock = styled.div`

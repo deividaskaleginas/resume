@@ -11,7 +11,7 @@ export const Contacts: React.FC = () => {
         Contacts
       </Typography>
       <FlexWrapper flexDirection="column" gap="8px">
-        <FlexWrapper gap="1.9375rem">
+        <FlexWrapper flexWrap="wrap" gap="1.9375rem">
           <Address>
             <Typography type="contactsTextBold" color="grey1">
               Gmail:{" "}
@@ -33,7 +33,7 @@ export const Contacts: React.FC = () => {
             </Typography>
           </Address>
         </FlexWrapper>
-        <FlexWrapper gap="1.3125rem">
+        <FlexWrapper flexWrap="wrap" alignItems="flex-start" gap="1.3125rem">
           <Address>
             <Typography type="contactsTextBold" color="grey1">
               GitHub{" "}
@@ -42,7 +42,7 @@ export const Contacts: React.FC = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Deividas Kaleginas
+                https://github.com/deividaskaleginas
               </a>
             </Typography>
           </Address>
