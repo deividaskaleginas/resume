@@ -22,5 +22,6 @@ export const AboutMe: React.FC = () => {
 };
 
 const AboutMeStyledSection = styled.section`
+  gap: 0.5rem;
   padding-bottom: 1.3125rem;
 `;

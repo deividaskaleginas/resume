@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { AboutMe } from "./components/aboutMe/AboutMe";
 import { Contacts } from "./components/contacts/Contacts";
+import { Education } from "./components/education/Education";
 import { Header } from "./components/header/Header";
 import GlobalStyles from "./styles/global";
 
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <Header />
       <Contacts />
       <AboutMe />
+      <Education />
     </Main>
   );
 };
