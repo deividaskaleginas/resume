@@ -8,6 +8,7 @@ import {
   PACKAGES,
   PROGRAMING_LANGUAGES,
 } from "../../constants/techStackConstants";
+import { Colors } from "../../styles/colors";
 
 export const TechnicalStack: React.FC = () => {
   return (
@@ -18,22 +19,22 @@ export const TechnicalStack: React.FC = () => {
       <FlexWrapper flexDirection="column" gap="1rem">
         <FlexWrapper flexWrap="wrap" gap="1rem">
           {PROGRAMING_LANGUAGES.map(({ logo, text }, index) => (
-            <ProgramingLanguageStyledBlock key={index}>
+            <TechStackSkill background="red" key={index}>
               <img src={logo} alt="HTML icon" />{" "}
               <Typography type="buttonTextBold" color="white">
                 {text}
               </Typography>
-            </ProgramingLanguageStyledBlock>
+            </TechStackSkill>
           ))}
         </FlexWrapper>
         <FlexWrapper flexWrap="wrap" gap="1rem">
           {PACKAGES.map(({ logo, text }, index) => (
-            <PackageStyledBlock key={index}>
+            <TechStackSkill background="purple" key={index}>
               <img src={logo} alt="HTML icon" />{" "}
               <Typography type="buttonTextBold" color="white">
                 {text}
               </Typography>
-            </PackageStyledBlock>
+            </TechStackSkill>
           ))}
         </FlexWrapper>
       </FlexWrapper>
@@ -46,17 +47,11 @@ const TechnicalStackStyledSection = styled.section`
   grid-gap: 0.5625rem;
 `;
 
-const ProgramingLanguageStyledBlock = styled.div`
+const TechStackSkill = styled.div<{ background: Colors }>`
   display: flex;
+  align-items: center;
   gap: 0.25rem;
   padding: 0.25rem 0.6875rem;
   border-radius: 0.3125rem;
-  background-color: ${theme.colors.red};
-`;
-const PackageStyledBlock = styled.div`
-  display: flex;
-  gap: 0.25rem;
-  padding: 0.25rem 0.6875rem;
-  border-radius: 0.3125rem;
-  background-color: ${theme.colors.purple};
+  background-color: ${({ background }) => theme.colors[background]};
 `;

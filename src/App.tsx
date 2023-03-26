@@ -25,5 +25,5 @@ export default App;
 const Main = styled.main`
   max-width: 50rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
 `;
