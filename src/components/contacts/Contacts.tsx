@@ -7,7 +7,9 @@ import { FlexWrapper } from "../wrappers/FlexWrapper";
 export const Contacts: React.FC = () => {
   return (
     <ContactsStyledBlock>
-      <Typography type="sectionTitleTextBold">Contacts</Typography>
+      <Typography type="sectionTitleTextBold" color="grey2">
+        Contacts
+      </Typography>
       <FlexWrapper flexDirection="column" gap="8px">
         <FlexWrapper gap="1.9375rem">
           <Address>

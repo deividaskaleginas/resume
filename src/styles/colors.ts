@@ -4,6 +4,7 @@ export const colors = {
   contacts: "#3E3E3F",
   white: "#FFFFFF",
   grey1: "#C0C0C0",
+  grey2: "#9A9A9A",
   purple: "#865BFF",
   red: "#FB4E78",
   pink: "C93B90",
