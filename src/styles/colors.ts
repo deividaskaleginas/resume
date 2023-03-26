@@ -10,3 +10,5 @@ export const colors = {
   green: "#09A72C",
   darkBlue: "#3422FF",
 };
+
+export type Colors = keyof typeof colors;
