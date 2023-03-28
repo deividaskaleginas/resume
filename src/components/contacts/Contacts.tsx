@@ -28,7 +28,7 @@ export const Contacts: React.FC = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Deividas Kaleginas
+                https://www.linkedin.com/in/deividas-kaleginas
               </a>
             </Typography>
           </Address>
