@@ -10,8 +10,8 @@ export const Contacts: React.FC = () => {
       <Typography type="sectionTitleTextBold" color="grey2">
         Contacts
       </Typography>
-      <FlexWrapper flexDirection="column" gap="8px">
-        <FlexWrapper flexWrap="wrap" gap="1.9375rem">
+      <FlexWrapper flexDirection="column" gap="0.5rem">
+        <FlexWrapper flexWrap="wrap" gap="0.5rem">
           <Address>
             <Typography type="contactsTextBold" color="grey1">
               Gmail:{" "}
