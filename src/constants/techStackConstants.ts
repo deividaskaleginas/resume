@@ -9,6 +9,7 @@ import gitHubIcon from "../assets/svg/gitHubIcon.svg";
 import styledComponentsIcon from "../assets/svg/styledComponentsIcon.svg";
 import sassIcon from "../assets/svg/sassIcon.svg";
 import reduxIcon from "../assets/svg/redux.svg";
+import restAPIIcon from "../assets/svg/restAPI.svg";
 
 interface TechStackType {
   logo: string;
@@ -55,5 +56,9 @@ export const PACKAGES: PackageType[] = [
   {
     logo: reduxIcon,
     text: "Redux",
+  },
+  {
+    logo: restAPIIcon,
+    text: "Rest API",
   },
 ];
