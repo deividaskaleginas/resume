@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.1a94d705.js",
+    "main.js": "/resume/static/js/main.805420d0.js",
     "static/media/DeividasKaleginasCV.pdf": "/resume/static/media/DeividasKaleginasCV.30a188b580ae1bd55c07.pdf",
     "static/media/profilePhoto.jpg": "/resume/static/media/profilePhoto.76579f9d73d6730fe7f7.jpg",
     "static/media/mruLogo.png": "/resume/static/media/mruLogo.60f0601168112de41bbe.png",
@@ -8,6 +8,7 @@
     "static/media/reactIcon.svg": "/resume/static/media/reactIcon.8f6df4500d553855fef0ef9e7d28c1f3.svg",
     "static/media/styledComponentsIcon.svg": "/resume/static/media/styledComponentsIcon.5f78dcf6ff2f639dbfa407618e309a65.svg",
     "static/media/gitHubIcon.svg": "/resume/static/media/gitHubIcon.0b3d9a13133c258252ce853585550419.svg",
+    "static/media/redux.svg": "/resume/static/media/redux.fdfe35fce3a5b98936abd343bf6a79dc.svg",
     "static/media/figmaIcon.svg": "/resume/static/media/figmaIcon.d70cd5a3ff9193ec3a0ea7724c1236e1.svg",
     "static/media/jsIcon.svg": "/resume/static/media/jsIcon.25cd57243f25942f24d902e147829962.svg",
     "static/media/htmlIcon.svg": "/resume/static/media/htmlIcon.c1afcc03b90b959b828dac33bdc328d9.svg",
@@ -15,9 +16,9 @@
     "index.html": "/resume/index.html",
     "static/media/cssIcon.svg": "/resume/static/media/cssIcon.da69d252ff45e819f804e5d3d5b85a8b.svg",
     "static/media/firebaseIcon.svg": "/resume/static/media/firebaseIcon.766551856d9e576ba752c968d479d32e.svg",
-    "main.1a94d705.js.map": "/resume/static/js/main.1a94d705.js.map"
+    "main.805420d0.js.map": "/resume/static/js/main.805420d0.js.map"
   },
   "entrypoints": [
-    "static/js/main.1a94d705.js"
+    "static/js/main.805420d0.js"
   ]
 }
