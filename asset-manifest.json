@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.805420d0.js",
-    "static/media/DeividasKaleginasCV.pdf": "/resume/static/media/DeividasKaleginasCV.30a188b580ae1bd55c07.pdf",
+    "main.js": "/resume/static/js/main.3c985419.js",
+    "static/media/DeividasKaleginasCV.pdf": "/resume/static/media/DeividasKaleginasCV.31b76f63052588b24c17.pdf",
     "static/media/profilePhoto.jpg": "/resume/static/media/profilePhoto.76579f9d73d6730fe7f7.jpg",
     "static/media/mruLogo.png": "/resume/static/media/mruLogo.60f0601168112de41bbe.png",
     "static/media/sassIcon.svg": "/resume/static/media/sassIcon.8f36d596ec8e9a4d788f5a9ae06b83e2.svg",
@@ -16,9 +16,9 @@
     "index.html": "/resume/index.html",
     "static/media/cssIcon.svg": "/resume/static/media/cssIcon.da69d252ff45e819f804e5d3d5b85a8b.svg",
     "static/media/firebaseIcon.svg": "/resume/static/media/firebaseIcon.766551856d9e576ba752c968d479d32e.svg",
-    "main.805420d0.js.map": "/resume/static/js/main.805420d0.js.map"
+    "main.3c985419.js.map": "/resume/static/js/main.3c985419.js.map"
   },
   "entrypoints": [
-    "static/js/main.805420d0.js"
+    "static/js/main.3c985419.js"
   ]
 }
