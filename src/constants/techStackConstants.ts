@@ -8,6 +8,7 @@ import firebaseIcon from "../assets/svg/firebaseIcon.svg";
 import gitHubIcon from "../assets/svg/gitHubIcon.svg";
 import styledComponentsIcon from "../assets/svg/styledComponentsIcon.svg";
 import sassIcon from "../assets/svg/sassIcon.svg";
+import reduxIcon from "../assets/svg/redux.svg";
 
 interface TechStackType {
   logo: string;
@@ -50,5 +51,9 @@ export const PACKAGES: PackageType[] = [
   {
     logo: sassIcon,
     text: "Sass",
+  },
+  {
+    logo: reduxIcon,
+    text: "Redux",
   },
 ];
