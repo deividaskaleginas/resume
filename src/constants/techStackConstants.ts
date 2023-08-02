@@ -10,6 +10,9 @@ import styledComponentsIcon from "../assets/svg/styledComponentsIcon.svg";
 import sassIcon from "../assets/svg/sassIcon.svg";
 import reduxIcon from "../assets/svg/redux.svg";
 import restAPIIcon from "../assets/svg/restAPI.svg";
+import nextIcon from "../assets/svg/nextjs.svg";
+import mySqlIcon from "../assets/svg/mysql.svg";
+import nodeJSIcon from "../assets/svg/nodejs.svg";
 
 interface TechStackType {
   logo: string;
@@ -41,6 +44,18 @@ export const PROGRAMING_LANGUAGES: TechStackType[] = [
   {
     logo: tsIcon,
     text: "TypeScript",
+  },
+  {
+    logo: nodeJSIcon,
+    text: "Node JS",
+  },
+  {
+    logo: nextIcon,
+    text: "Next JS",
+  },
+  {
+    logo: mySqlIcon,
+    text: "MySQL",
   },
 ];
 
