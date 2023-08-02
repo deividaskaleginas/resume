@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.a311f964.js",
-    "static/media/DeividasKaleginasCV.pdf": "/resume/static/media/DeividasKaleginasCV.fb666bda64acd8cf6a05.pdf",
+    "main.js": "/resume/static/js/main.ef1d8d3b.js",
+    "static/media/DeividasKaleginasCV.pdf": "/resume/static/media/DeividasKaleginasCV.e2e777fe7ecf7588156c.pdf",
     "static/media/profilePhoto.jpg": "/resume/static/media/profilePhoto.76579f9d73d6730fe7f7.jpg",
     "static/media/mruLogo.png": "/resume/static/media/mruLogo.60f0601168112de41bbe.png",
+    "static/media/mysql.svg": "/resume/static/media/mysql.31002a6a3eef4e1449a65e001f2c6e51.svg",
     "static/media/sassIcon.svg": "/resume/static/media/sassIcon.8f36d596ec8e9a4d788f5a9ae06b83e2.svg",
     "static/media/reactIcon.svg": "/resume/static/media/reactIcon.8f6df4500d553855fef0ef9e7d28c1f3.svg",
+    "static/media/nextjs.svg": "/resume/static/media/nextjs.a16e0b0f2eee493ecbe16e00aa666427.svg",
     "static/media/styledComponentsIcon.svg": "/resume/static/media/styledComponentsIcon.5f78dcf6ff2f639dbfa407618e309a65.svg",
     "static/media/gitHubIcon.svg": "/resume/static/media/gitHubIcon.0b3d9a13133c258252ce853585550419.svg",
+    "static/media/nodejs.svg": "/resume/static/media/nodejs.9eaa249debbf52184399512769ef5da4.svg",
     "static/media/restAPI.svg": "/resume/static/media/restAPI.4c228626e2d3fd4374ba2109bc147f44.svg",
     "static/media/redux.svg": "/resume/static/media/redux.fdfe35fce3a5b98936abd343bf6a79dc.svg",
     "static/media/figmaIcon.svg": "/resume/static/media/figmaIcon.d70cd5a3ff9193ec3a0ea7724c1236e1.svg",
@@ -17,9 +20,9 @@
     "index.html": "/resume/index.html",
     "static/media/cssIcon.svg": "/resume/static/media/cssIcon.da69d252ff45e819f804e5d3d5b85a8b.svg",
     "static/media/firebaseIcon.svg": "/resume/static/media/firebaseIcon.766551856d9e576ba752c968d479d32e.svg",
-    "main.a311f964.js.map": "/resume/static/js/main.a311f964.js.map"
+    "main.ef1d8d3b.js.map": "/resume/static/js/main.ef1d8d3b.js.map"
   },
   "entrypoints": [
-    "static/js/main.a311f964.js"
+    "static/js/main.ef1d8d3b.js"
   ]
 }
